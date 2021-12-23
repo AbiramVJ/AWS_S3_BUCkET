@@ -1,0 +1,36 @@
+{
+  "type": "module",
+  "name": "work_force",
+  "version": "1.0.0",
+  "description": "creating work force for customers",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "dev": "nodemon --exec babel-node index.js"
+  },
+  "author": "abdhu",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1047.0",
+    "babel": "^6.23.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "module": "^1.2.5",
+    "mongoose": "^6.1.2",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.2",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.5",
+    "@babel/node": "^7.16.5",
+    "@babel/preset-env": "^7.16.5"
+  },
+  "keywords": []
+}
